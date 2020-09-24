@@ -1,0 +1,34 @@
+--- /usr/bin/neofetch	2020-08-02 22:31:59.000000000 +0200
++++ /usr/bin/neofetch.sh	2020-09-24 13:49:59.938357600 +0200
+@@ -5841,6 +5841,31 @@
+  .`                                 `/
+ EOF
+         ;;
++	 "Hipster"*)
++            set_colors 7 0	
++            read -rd '' ascii_data <<'EOF'
++${c1}MMMMMMMMMMMMMMMMN0OkO0NMMMMMMMMMMMMMMMM
++MMMMMMMMMMW0o;.         .,lOWMMMMMMMMMM
++MMMMMMMMk;    ${c2}...   ....${c1}     ,kWMMMMMMM
++MMMMMMd.     ${c2};::::::;,. ,,${c1}      oWMMMMM
++MMMMK.      ${c2}', ....;::::::;${c1}      .0MMMM
++MMMO        ${c2};::;:::::::::::,${c1}       kMMM
++MMX   ${c2},::::.  ..',;:::::::::.${c1}       KMM
++MM:   ${c2},:::::,.      ,::::::;.;;,.${c1}   ,MM
++MM.     ${c2}';::::::;,...::::::::::::,${c1}   MM
++MM        ${c2}..';:::::::::::::::::::.${c1}   MM
++MM,      ;X. ${c2}.;..';::::::::::;,.${c1}    .MM
++MM0'',cxd.::.MMK;   ....'...        OMM
++MMMMMMMMMMK, 'NMMMMMWNMWMMM.       lMMM
++MMMMMMMMMMM.  'MMN0k:.;kMMd  ;cllcxMMMM
++MMMMMMMMMMO        .,;, ;',xXMMMMMMMMMM
++MMMMMMMMMM:         ;'o, dMMMMMMMMMMMMM
++MMMMMMMMMMW'             WMMMMMMMMMMMMM
++MMMMMMMMMMMWd.          xMMMMMMMMMMMMMM
++MMMMMMMMMMMMMMO,.     ,NMMMMMMMMMMMMMMM
++MMMMMMMMMMMMMMMMMW0dOMMMMMMMMMMMMMMMMMM
++EOF
++        ;;
+ 
+         "artix_small"*)
+             set_colors 6 6 7 1
