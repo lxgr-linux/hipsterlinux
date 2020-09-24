@@ -5,7 +5,7 @@
  EOF
          ;;
 +	 "Hipster"*)
-+            set_colors 7 0	
++            set_colors 7 240	
 +            read -rd '' ascii_data <<'EOF'
 +${c2}                ..     .....               
 +             .:::::::::;,'  ',             

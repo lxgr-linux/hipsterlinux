@@ -2,5 +2,5 @@ NAME="Hipster Linux"
 PRETTY_NAME="Hipster Linux"
 ID=hipster
 BUILD_ID=rolling
-ANSI_COLOR="38;2;93;97;121;1"
+ANSI_COLOR="90"
 LOGO=hipsterlinux
